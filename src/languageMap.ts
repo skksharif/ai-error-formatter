@@ -1,0 +1,28 @@
+const languageMap: Record<string, string> = {
+  en: "English",
+  hi: "Hindi",
+  fr: "French",
+  es: "Spanish",
+  de: "German",
+  zh: "Chinese",
+  ja: "Japanese",
+  ru: "Russian",
+  ar: "Arabic",
+  pt: "Portuguese",
+  bn: "Bengali",
+  ta: "Tamil",
+  te: "Telugu",
+  ml: "Malayalam",
+  ur: "Urdu",
+  ko: "Korean",
+  it: "Italian",
+  tr: "Turkish",
+  vi: "Vietnamese",
+  id: "Indonesian",
+  pl: "Polish",
+  nl: "Dutch",
+  gu: "Gujarati",
+  mr: "Marathi",
+};
+
+export default languageMap;
