@@ -1,6 +1,6 @@
 {
   "name": "ai-error-formatter",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "AI tool to explain JavaScript errors with structured output and fun modes like roast, sarcasm, emojis, and child-like explanations.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -20,7 +20,7 @@
   "homepage": "https://ai-error-formatter.vercel.app",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ai-error-formatter"
+    "url": "https://github.com/skksharif/ai-error-formatter"
   },
   "bugs": {
     "url": "https://github.com/ai-error-formatter/issues"

@@ -166,9 +166,9 @@ I need space to find myself (hint: I don't exist).
   ];
 
   return (
-    <div className={`min-h-screen transition-all duration-500 ${darkMode ? 'dark' : ''}`}>
+    <div className={`min-h-screen transition-all duration-500 overflow-x-hidden ${darkMode ? 'dark' : ''}`}>
       {/* Dark Mode Toggle */}
-      <div className="fixed top-6 right-6 z-50">
+      <div className="fixed top-5 right-6 z-50">
         <button
           onClick={() => setDarkMode(!darkMode)}
           className="error-button p-3 rounded-full hover:scale-110 transition-all duration-300"
@@ -179,7 +179,7 @@ I need space to find myself (hint: I don't exist).
 
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center hero-bg bg-gray-50 dark:bg-gray-900">
-        <div className="relative max-w-7xl mx-auto px-6 py-20 text-center">
+        <div className="relative max-w-7xl mx-auto px-2 py-5 text-center">
           <div className="scroll-reveal mb-8">
             <div className="inline-flex items-center gap-2 broken-card px-4 py-2 rounded-full mb-8">
               <AlertTriangle className="w-4 h-4 text-red-500" />
@@ -192,8 +192,6 @@ I need space to find myself (hint: I don't exist).
               <span className="glitch-text gradient-text font-mono" data-text="Fix Your Errors">
                 Fix Your Errors
               </span>
-              <br />
-              <span className="text-gray-800 dark:text-white">Like a Boss</span>
             </h1>
           </div>
           
